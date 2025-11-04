@@ -1,14 +1,16 @@
 module github.com/quay/quay-builder
 
-go 1.23.3
+go 1.24.0
+
+toolchain go1.24.6
 
 require (
 	code.cloudfoundry.org/archiver v0.0.0-20230612152321-46722cbc3f99
 	github.com/containers/buildah v1.40.1
 	github.com/containers/podman/v5 v5.5.2
 	github.com/distribution/reference v0.6.0
-	github.com/docker/docker v28.1.1+incompatible
-	github.com/fsouza/go-dockerclient v1.12.0
+	github.com/docker/docker v28.3.3+incompatible
+	github.com/fsouza/go-dockerclient v1.12.2
 	github.com/golang/protobuf v1.5.4
 	github.com/moby/buildkit v0.21.0
 	github.com/nu7hatch/gouuid v0.0.0-20131221200532-179d4d0c4d8d
@@ -158,8 +160,8 @@ require (
 	golang.org/x/mod v0.24.0 // indirect
 	golang.org/x/net v0.39.0 // indirect
 	golang.org/x/sync v0.14.0 // indirect
-	golang.org/x/sys v0.33.0 // indirect
-	golang.org/x/term v0.32.0 // indirect
+	golang.org/x/sys v0.35.0 // indirect
+	golang.org/x/term v0.34.0 // indirect
 	golang.org/x/text v0.25.0 // indirect
 	google.golang.org/genproto/googleapis/api v0.0.0-20250303144028-a0af3efb3deb // indirect
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20250313205543-e70fdf4c4cb4 // indirect
